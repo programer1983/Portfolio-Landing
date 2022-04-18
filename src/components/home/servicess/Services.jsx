@@ -17,6 +17,10 @@ const Services = () => {
                            <div className="img"> 
                                <img src={val.cover} alt="" />
                            </div>
+                           <div className="text">
+                               <h2>{val.title}</h2>
+                               <p>{val.desc}</p>
+                           </div>
                        </div>
                        </>
                    )})}
