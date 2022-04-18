@@ -442,3 +442,38 @@ p {
     opacity: 0;
     transition: 1s ease 0.3s;
 }
+
+.skill .right {
+    padding: 0 50px;
+}
+
+.skill h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.skill .right p {
+    margin-bottom: 20px;
+}
+
+/* Wrapper One */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.wrapperOne {
+    background: #38d16a;
+    text-align: center;
+}
+
+.wrapperOne h1 {
+    color: #fff;
+}
+
+.wrapperOne p {
+    font-size: 14px;
+    margin: 10px 0;
+}

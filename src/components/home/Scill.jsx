@@ -13,7 +13,13 @@ const Scill = () => {
      )
  }
 
- 
+ const data = [
+     {
+         title: "Every Day is a New Challenge",
+         para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur.",
+         para1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur."
+     }
+ ]
   
  return (
     <>
@@ -29,6 +35,18 @@ const Scill = () => {
                      <Progress title="CSS" done="80" />
                      <Progress title="JAVASCRIPT" done="90" />
                      <Progress title="REACT JS" done="70" />
+                 </div>
+                 <div className="right mtop">
+                     {data.map((val) => {
+                         return (
+                             <>
+                             <h1>{val.title}</h1>
+                             <p>{val.para}</p>
+                             <p>{val.para1}</p>
+                             <button className="primary-btn">Hire Me</button>
+                             </>
+                         )
+                     })}
                  </div>
              </div>
          </div>

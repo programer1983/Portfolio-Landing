@@ -4,6 +4,7 @@ import Home from "../home/homes/Home"
 import Scill from "../home/Scill"
 import Services from "../home/servicess/Services"
 import Wrapper from "../home/Wrapper"
+import WrapperOne from "../home/WrapperOne"
 
 
 const HomePages = () => {
@@ -15,6 +16,7 @@ const HomePages = () => {
       <Services />
       <Wrapper />
       <Scill />
+      <WrapperOne />
     </>
   )
 }
