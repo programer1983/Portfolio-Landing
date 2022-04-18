@@ -1,8 +1,13 @@
+import Branding from "../home/Branding"
+import Home from "../home/homes/Home"
 
 
 const HomePages = () => {
   return (
-    <div>HomePages</div>
+    <>
+      <Home />
+      <Branding />
+    </>
   )
 }
 
