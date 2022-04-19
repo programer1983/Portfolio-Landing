@@ -1,4 +1,5 @@
 import About from "../home/about/About"
+import Blog from "../home/blog/Blog"
 import Branding from "../home/Branding"
 import Home from "../home/homes/Home"
 import Scill from "../home/Scill"
@@ -19,6 +20,7 @@ const HomePages = () => {
       <Scill />
       <WrapperOne />
       <Work />
+      <Blog />
     </>
   )
 }
