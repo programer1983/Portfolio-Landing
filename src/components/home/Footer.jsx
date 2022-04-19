@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="container grid1">
               <div className="box">
                   <img src="./assets/logo1.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis iaculis eleifend.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis iaculis eleifend. Aenean vitae justo in nisl interdum porta. Nullam et convallis nulla, in mollis ligula.</p>
                   <div className="scoialIcon">
                     <i className="fab fa-facebook-f"></i>
                     <i className="fab fa-instagram"></i>
