@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import HomePages from './components/pageContent/HomePages';
+import Footer from './components/home/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<HomePages/>} />
       </Routes>
+      <Footer />
     </Router>
     </>
   );
